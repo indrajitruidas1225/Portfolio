@@ -261,18 +261,18 @@ h2,h3,h4{
 .contact h2{
     margin-bottom: 3rem;
 }
-.contact form{
+.contact .c-form{
     max-width: 70rem;
     margin:1rem auto;
     text-align: center;
     margin-bottom: 3rem;
 }
-.contact form .input-box{
+.contact .c-form .input-box{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.contact form .input-box input,.contact form textarea{
+.contact .c-form .input-box input,.contact .c-form textarea{
     width:100%;
     padding:1.5rem;
     font-size:1.6rem;
@@ -281,13 +281,13 @@ h2,h3,h4{
     border-radius: .8rem;
     margin:.7rem 0;
 }
-.contact form .input-box input{
+.contact .c-form .input-box input{
     width:49%;
 }
-.contact form textarea{
+.contact .c-form textarea{
     resize:none;
 }
-.contact form .btn{
+.contact .c-form .btn{
     margin-top: 2rem;
     cursor:pointer;
 }
@@ -405,7 +405,7 @@ h2,h3,h4{
     html{
         font-size:50%;
     }
-    .contact form .input-box input{
+    .contact .c-form .input-box input{
         width:100%;
     }
 }
