@@ -175,7 +175,7 @@
   </section>
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me !</span></h2>
-    <form id="c-form" onsubmit="submitform()">
+    <div class="c-form">
       <div class="input-box">
         <input type="text" placeholder="Full Name" id="username">
         <input type="email" placeholder="Your E-Mail" id="email">
@@ -186,8 +186,8 @@
       </div>
 
       <textarea name="" cols="30" rows="10" placeholder="Your Message" id="message"></textarea>
-      <button class="btn" type="submit" onclick="sendEmail()">Send Message</button>
-    </form>
+      <button class="btn" onclick="sendEmail()">Send Message</button>
+    </div>
   </section>
   <footer class="footer">
     <div class="footer-text">
