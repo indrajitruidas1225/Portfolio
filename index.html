@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable='no'">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio | Indrajit Ruidas</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+    integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<script src="send_email.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello , It's Me</h3>
+      <h1>Indrajit Ruidas</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <!-- <p>ndeuu uhduede dudegdyegde  gdede eydyedy degdegd yyygygy tftfrd ddededee dessjj
+                yyggt rdeded ee&nbsp;<br>gygtft
+             </p> -->
+      <div class="social-media">
+        <a href="https://leetcode.com/indrajitruidascse/" target="_blank"><i class='bx bx-code-alt'></i></a>
+        <a href="https://www.facebook.com/indrajit.ruidas.1225" target="_blank"><i
+            class='bx bxl-facebook-circle'></i></a>
+        <a href="https://www.linkedin.com/in/indrajitruidas1225" target="_blank"><i
+            class='bx bxl-linkedin-square'></i></a>
+        <a href="mailto:indrajitruidas8436@yahoo.com" target="_blank"><i class='bx bxs-envelope'></i></a>
+        <a href="tel:+919647223862" target="_blank"><i class='bx bx-phone-call'></i></a>
+      </div>
+
+      <a href="https://drive.google.com/file/d/1cPD8LR3MGUD8HC5lcpXBpcTcmpqEUdDL/view" class="btn"
+        target="_blank">Download Resume</a>
+
+    </div>
+    <div class="home-image">
+      <img src="img/home.jpg" style="height:300px;width:300px;border-radius:10%">
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/about.jpg" style="height:300px;width:300px;border-radius: 10%;">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Full-Stack Web Developer</h3>
+      <p>I'm currently pusruing BTech - 3rd Year in Computer Science & Engineering
+        in Ramkrishna Mahato Government Engineering College , Purulia . Presently I'm skilled
+        at Full-Stack Web Development and constantly trying to upgrade my skills . I'm interested and
+        actively looking for SDE Role in any company.
+      </p>
+      <!-- <a href="#" class="btn">Read More</a> -->
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skill-container">
+      <div class="skill-box">
+        <img src="https://img.icons8.com/color/512/c-programming.png" style="width:100px;height:auto;">
+        <h3>C</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-c-plus-plus'></i>
+        <h3>C++</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-python'></i>
+        <h3>Python</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-javascript'></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill-box">
+        <i class='bx bxl-html5'></i>
+        <h3>HTML</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-css3'></i>
+        <h3>CSS</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-bootstrap'></i>
+        <h3>Bootstrap</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-jquery'></i>
+        <h3>JQuery</h3>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-php'></i>
+        <h3>PHP</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fa fa-mysql" aria-hidden="true"></i>
+        <h3>MySQL</h3>
+      </div>
+
+      <div class="skill-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+      </div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="project-container">
+      <div class="project-box">
+        <img src="img/p1.jpg" alt="" style="height:280px">
+        <div class="project-layer">
+          <h4>Website for my School</h4>
+          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+          <a href="https://pmhsonline.com/" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="img/p2.jpg" alt="" style="height:280px">
+        <div class="project-layer">
+          <h4>E-Commerce Website</h4>
+          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p> -->
+          <a href="http://amazonclonebyindrajit.infinityfreeapp.com/?i=1" target="_blank"><i
+              class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="img/p3.jpg" alt="" style="height:280px">
+        <div class="project-layer">
+          <h4>Dating App</h4>
+          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p> -->
+          <a href="https://github.com/indrajitruidas1225/Tinder-Clone-Appllication" target="_blank"><i
+              class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="project-box">
+        <img src="img/p4.jfif" alt="" style="height:280px">
+        <div class="project-layer">
+          <h4>Movie Website</h4>
+          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p> -->
+          <a href="https://indrajitruidas1225.github.io/Movie-Site/" target="_blank"><i
+              class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me !</span></h2>
+    <form>
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" id="username">
+        <input type="email" placeholder="Your E-Mail" id="email">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Your Mobile" id="mobile">
+        <input type="text" placeholder="E-Mail Subject" id="subject">
+      </div>
+
+      <textarea name="" cols="30" rows="10" placeholder="Your Message" id="message"></textarea>
+      <button class="btn" onclick="sendEmail()">Send Message</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy;2023 | All rights reserved</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
