@@ -424,3 +424,70 @@ h2,h3,h4{
         margin-top: 2rem;
     }
 }
+
+
+
+.experience {
+    background-color: #2c3440; /* Slightly different background color */
+    padding: 10rem 9% 2rem;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 3.8rem;
+}
+
+.experience-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.experience-details {
+    flex: 1;
+    margin-left: 3rem;
+}
+
+.experience-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    /* color: var(--main-color); */
+    margin-bottom: 1rem;
+}
+
+.experience-company {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.experience-date {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.experience-description {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .experience-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-details {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
